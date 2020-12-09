@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:background="res/drawable/signuplight.png" android:layout_width="-1" android:layout_height="-1">
+	<ProgressBar android:id="false" android:layout_width="130dp" android:layout_height="130dp" android:layout_centerInParent="true" />
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+		<EditText android:id="false" android:background="res/drawable/vlounterr_edi_text_black.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="150dp" android:hint="الأيميل" android:inputType="0x21" />
+		<EditText android:gravity="0x800005" android:id="false" android:background="res/drawable/vlounterr_edi_text_black.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp" android:hint="كلمة المرور" android:inputType="0x12" />
+		<Button android:textStyle="0x1" android:textColor="ffffff" android:background="res/drawable/buttonbordergreen.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="50dp" android:text="تسجيل الدخول" android:onClick="login" />
+		<LinearLayout android:gravity="0x11" android:layout_gravity="0x11" android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+			<TextView android:textSize="30sp" android:textColor="2a2e43" android:gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16dp" android:text="عمل حساب جديد" android:onClick="rejester" />
+			<View android:layout_gravity="0x11" android:background="resourceId:0x106000c" android:layout_width="-1" android:layout_height="1dp" />
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

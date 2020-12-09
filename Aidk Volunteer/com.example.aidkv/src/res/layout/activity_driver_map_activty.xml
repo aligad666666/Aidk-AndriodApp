@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:map="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="454f63" android:layout_width="-1" android:layout_height="-1">
+	<Button android:textSize="20sp" android:textStyle="0x1" android:textColor="ffffff" android:layout_gravity="0x5" android:id="false" android:background="res/drawable/buttonbordergreen.xml" android:layout_width="-2" android:layout_height="-2" android:layout_margin="10dp" android:text="البيانات" android:onClick="settings" />
+	<Button android:textSize="20sp" android:textStyle="0x1" android:textColor="ffffff" android:layout_gravity="0x3" android:id="false" android:background="res/drawable/buttonbordergreen.xml" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_margin="10dp" android:text="go online" android:onClick="on" />
+	<Button android:textSize="20sp" android:textStyle="0x1" android:textColor="ffffff" android:layout_gravity="0x3" android:id="false" android:background="res/drawable/buttonborderred.xml" android:padding="5dp" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_margin="10dp" android:text="you are busy now" />
+	<Button android:textSize="20sp" android:textStyle="0x1" android:textColor="ffffff" android:layout_gravity="0x11" android:id="false" android:background="res/drawable/buttonborderred.xml" android:padding="10dp" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_margin="10dp" android:text="click here to stop music" />
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+		<fragment android:name="com.google.android.gms.maps.SupportMapFragment" android:id="false" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1092616192}" />
+		<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/dark_gray.xml" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+			<de.hdodenhof.circleimageview.CircleImageView android:layout_gravity="0x11" android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:src="res/drawable/man.png" />
+			<LinearLayout android:orientation="1" android:paddingLeft="30dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+				<TextView android:textSize="20sp" android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="16dp" android:text="اسم الامي" android:drawablePadding="16dp" />
+				<TextView android:textColor="ffffff" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="16dp" android:text="على بعد دقائق منك" />
+			</LinearLayout>
+			<Button android:layout_gravity="0x11" android:background="454f63" android:layout_width="-2" android:layout_height="-2" android:drawableLeft="res/drawable/call.png" android:onClick="etsal" />
+		</LinearLayout>
+	</LinearLayout>
+	<ProgressBar android:layout_gravity="0x11" android:id="false" android:layout_width="130dp" android:layout_height="130dp" />
+</FrameLayout>

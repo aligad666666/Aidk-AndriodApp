@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="2a2e43" android:layout_width="-1" android:layout_height="-1">
+	<ProgressBar android:id="false" android:layout_width="130dp" android:layout_height="130dp" android:layout_centerInParent="true" />
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+		<de.hdodenhof.circleimageview.CircleImageView android:layout_gravity="0x11" android:id="false" android:layout_width="150dp" android:layout_height="150dp" android:layout_marginTop="40dp" android:layout_marginBottom="40dp" android:src="res/drawable/man.png" />
+		<EditText android:textColor="959dad" android:textColorHint="959dad" android:id="false" android:background="res/drawable/dark_withpadding.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp" android:hint="الاسم" android:inputType="0x1" />
+		<EditText android:textColor="959dad" android:textColorHint="959dad" android:id="false" android:background="res/drawable/dark_withpadding.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp" android:hint="رقم الهاتف المحمول" android:inputType="0x3" />
+		<Button android:textSize="20sp" android:textStyle="0x1" android:textColor="ffffff" android:background="res/drawable/purblebutton.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="32dp" android:text="تحديث البيانات" android:onClick="conform" />
+	</LinearLayout>
+</RelativeLayout>

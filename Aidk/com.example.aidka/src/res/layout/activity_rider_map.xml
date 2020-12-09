@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:map="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="-1" android:layout_height="-1">
+	<Button android:textSize="20sp" android:textStyle="0x1" android:textColor="ffffff" android:layout_gravity="0x5" android:id="false" android:background="res/drawable/dark_withpadding.xml" android:layout_width="-2" android:layout_height="-2" android:layout_margin="10dp" android:text="البيانات" android:onClick="settings" />
+	<ProgressBar android:layout_gravity="0x11" android:id="false" android:layout_width="130dp" android:layout_height="130dp" />
+	<fragment android:name="com.google.android.gms.maps.SupportMapFragment" android:id="false" android:layout_width="-1" android:layout_height="-1" />
+	<LinearLayout android:layout_gravity="0x50" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/dark_gray.xml" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+			<de.hdodenhof.circleimageview.CircleImageView android:layout_gravity="0x11" android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginLeft="10dp" android:layout_marginRight="16dp" android:src="res/drawable/man.png" />
+			<LinearLayout android:orientation="1" android:paddingLeft="10dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+				<TextView android:textSize="20sp" android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="16dp" android:text="اسم المتطوع" android:drawablePadding="16dp" />
+				<TextView android:textColor="ffffff" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="16dp" android:text="على بعد دقائق منك" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x11" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+				<ImageView android:layout_width="25dp" android:layout_height="25dp" android:src="res/drawable/sta.png" />
+				<TextView android:textSize="25sp" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="5" />
+			</LinearLayout>
+			<Button android:layout_gravity="0x11" android:background="454f63" android:layout_width="-2" android:layout_height="-2" android:drawableLeft="res/drawable/call.png" android:onClick="etsal1" />
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:background="454f63" android:padding="20dp" android:layout_width="-1" android:layout_height="-2">
+			<Button android:textSize="20sp" android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:background="res/drawable/buttonbordergreen.xml" android:padding="16dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="اذا قابلت المتطوع" android:onClick="kaka" />
+			<Button android:textSize="20sp" android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:background="res/drawable/buttonbordergreen.xml" android:padding="16dp" android:layout_width="-1" android:layout_height="-2" android:text="الحصول على متطوع" android:onClick="request" />
+		</LinearLayout>
+	</LinearLayout>
+	<ImageView android:layout_gravity="0x3" android:id="false" android:layout_width="70dp" android:layout_height="70dp" android:layout_marginLeft="350dp" android:layout_marginTop="150dp" android:src="res/drawable/blackmic.png" map:layout_constraintEnd_toEndOf="0" map:layout_constraintStart_toStartOf="0" map:layout_constraintTop_toTopOf="0" />
+	<LinearLayout android:gravity="0x11" android:layout_gravity="0x11" android:orientation="1" android:id="false" android:background="res/drawable/d.xml" android:padding="20dp" android:visibility="1" android:layout_width="-2" android:layout_height="-2">
+		<LinearLayout android:gravity="0x11" android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+			<TextView android:textSize="30sp" android:textStyle="0x1" android:textColor="ffffff" android:layout_width="-2" android:layout_height="-2" android:text="وقت المهمة" />
+			<Chronometer android:textSize="30dp" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" />
+			<Button android:id="false" android:background="res/drawable/buttonbordergreen.xml" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:text="انهاء المهمة" android:onClick="endtime" />
+		</LinearLayout>
+		<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp">
+			<TextView android:textSize="30sp" android:textStyle="0x1" android:textColor="ffffff" android:layout_width="-2" android:layout_height="-2" android:text="اضف تقيم" />
+			<RatingBar android:theme="resourceId:0x7f0e00ac" android:id="false" android:layout_width="-2" android:layout_height="-2" android:numStars="5" android:stepSize="{4:1056964608}" />
+		</LinearLayout>
+	</LinearLayout>
+</FrameLayout>
