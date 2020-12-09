@@ -1,6 +1,6 @@
 # Aidk
 
-> Aidk app connects volunteers and illiteracy challenges to help them spend all their interests in the various government departments. Any illiterate person can use the application as it is equipped with a voice recording that automatically explains every page that appears to the user in the application.
+> [Aidk](https://www.aidk.org) app connects volunteers and illiteracy challenges to help them spend all their interests in the various government departments. Any illiterate person can use the application as it is equipped with a voice recording that automatically explains every page that appears to the user in the application.
 Join us now as a volunteer and contribute with us in helping the illiteracy challenge to eliminate their interests in the various government departments
 # New Features!
 - The application is in Arabic
