@@ -4,7 +4,7 @@
 Join us now as a volunteer and contribute with us in helping the illiteracy challenge to eliminate their interests in the various government departments
 # New Features!
 - The application is in Arabic
-- easy to use
+- Easy to use
 - Equipped with a voice recorder that automatically explains every page that appears to the user in the application
 
 # Installation
